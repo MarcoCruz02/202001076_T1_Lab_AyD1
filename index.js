@@ -4,7 +4,7 @@ const app = express();
 app.get("/api/DatosGenerales", (req, res) => {
   res.json({
     nombre: "Marco Fernando Cruz Mendoza",
-    cancion_favorita: "We Don't Believe What's on TV - Twenty One Pilots"
+    album_favorito: "Blurryface"
   });
 });
 
